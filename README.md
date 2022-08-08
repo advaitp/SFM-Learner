@@ -119,7 +119,7 @@ parser.add_argument("--gt-type", default='KITTI', type=str, help="GroundTruth da
 parser.add_argument("--gps", '-g', action='store_true',
                     help='if selected, will get displacement from GPS for KITTI. Otherwise, will integrate speed')
 parser.add_argument("--img-exts", default=['png', 'jpg', 'bmp'], nargs='*', type=str, help="images extensions to glob")
-
+```
 ## Results 
 
 # ![2](https://github.com/advaitp/SFM-Learner/blob/main/Images/sfmlearnermodels.png)
