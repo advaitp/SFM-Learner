@@ -1,13 +1,9 @@
 # SFMLearner 
+## Overview 
+There has been a lot of work in the field of structure from motion using deep learning methods one such paper Unsupervised Learning of Depth and Ego-Motion from Video deals with the same.In this project we explore the paper and we try to improve the network using various techniques.Few methods that we implemented worked and gave improved results while few others did not work.In this project we explain each techniques and it’s effect on the network and the output.
 
 ### To run the code
-## Prerequisite
-
-```
-pip install -r requirements.txt
-
-```
-or install manually the following packages :
+Install manually the following packages :
 
 ```
 pytorch >= 1.0.1
@@ -121,4 +117,5 @@ parser.add_argument("--gt-type", default='KITTI', type=str, help="GroundTruth da
 parser.add_argument("--gps", '-g', action='store_true',
                     help='if selected, will get displacement from GPS for KITTI. Otherwise, will integrate speed')
 parser.add_argument("--img-exts", default=['png', 'jpg', 'bmp'], nargs='*', type=str, help="images extensions to glob")
-```
+
+## Results 
